@@ -13,7 +13,7 @@ function dispList() {
     console.log(disItem);
     disItem.innerHTML = '<ul>';
     for (bookList of list){
-        disItem.innerHTML += '<li>' + bookList + '</li>'
+        disItem.innerHTML += '<li id="'+bookList+'" onclick="mark('+bookList+')">' + bookList + '</li>'
     }
     disItem.innerHTML += '</ul>';
 }
