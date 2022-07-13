@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-image: url(/JS-Array-OnClick-Loops---book-List/img/bookBG.jpg);
+    background-size: cover;
+    padding: 50px 100px;
+    
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #7D5525;
+}
+
+#wraper {
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 43vw;
+    justify-content: space-between;
+    color: #253E4A;
+    font-weight: bold;
+}
+
+#wraper input {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+button {
+    padding: 4px 7px;
+    font-size: 16px;
+    border: none;
+    background-color: #253E4A;
+    color: white;
+    /* border: 3px solid #253E4A; */
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    /* border: 3px solid #253E4A; */
+    box-shadow: 0px 0px 0px 2px #253E4A inset;
+    color: #253E4A;
+}
+
+#list {
+    margin-top: 25px;
+    color: #253E4A;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
