@@ -8,4 +8,21 @@ function addItem() {
     bookItem.value = "";
 }
 
+function dispList() {
+    let disItem = document.getElementById("disp");
+    console.log(disItem);
+    disItem.innerHTML = '<ul>';
+    for (bookList of list){
+        disItem.innerHTML += '<li>' + bookList + '</li>'
+    }
+    disItem.innerHTML += '</ul>';
+}
+
+ window.onbeforeunload = function () {
+  return 'Are you really want to perform the action?';
+ }
+
+
+
+
 
