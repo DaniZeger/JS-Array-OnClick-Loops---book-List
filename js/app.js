@@ -25,7 +25,7 @@ function dispList() {
 }
 
  window.onbeforeunload = function () {
-  return 'Are you really want to perform the action?';
+  return 'This will delete all the changes you have made';
  }
 
 
